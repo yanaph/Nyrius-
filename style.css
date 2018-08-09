@@ -1,0 +1,167 @@
+* {
+   margin:0; padding:0;
+   font-size:inherit;
+   color:inherit;
+   -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+
+a {outline:none;
+   text-decoration:none;
+   font-size:11px;
+   color:#2d2a2b ;
+}
+
+img {border:none;}
+
+html {
+   height: 100%;
+}
+
+
+body {
+   height: 100%;
+   background-image: url(images/background.png);
+   background-size: cover;
+   background-color: black;
+}
+
+
+.container{
+	max-width: 960px;
+	margin: auto;
+}
+
+header .container{
+	position: relative;
+}
+
+
+header .container:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+header .container img{
+	border-top: 4px solid #05abda;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	float: left;
+}
+
+
+header .container ul li{
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+
+header .container ul li a{
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 89px;
+}
+
+header .container ul li:first-child{
+	padding-left: 32px;
+	padding-right: 35px;
+}
+
+header .container form{
+	max-width: 169px;
+	background-color: #000000;
+	border: 1px solid #4a4a4a;
+	float: right;
+	height: 26px;
+	margin-top: 31px;
+
+}
+
+header .container form:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+header .container form:hover{
+	border: 1px solid #05abda;
+}
+
+header .container form input{
+	width: 70%;
+	background-color: transparent;
+	float: left;
+	border: none;
+	line-height: 26px;
+	color: #757575;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;	
+	padding-left: 10px;
+	padding-right: 5px;
+	box-sizing: border-box;
+	outline-style: none;
+}
+
+
+header .container form button{
+	width: 25%;
+	line-height: 26px;
+	float: right;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+header .container form button i{
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.cart{
+	line-height: 89px;
+	float: right;
+	padding-left: 14px;
+}
+
+.messege{
+	line-height: 89px;
+	float: right;
+	padding-left: 19px;
+}
+
+.cart i, .messege i{
+	color: #05abda;
+	font-size: 13px;
+}
+
+.contacts{
+	background-color: #303030;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 243px;
+	float: right;
+	margin-right: -462px;
+}
+
+.contacts span:first-child{
+	color: #8d8d8d;
+	font-size: 10px;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;	
+	text-transform: uppercase;
+}
+
+.contacts span:last-child{
+	color: #ffffff;
+	font-size: 10px;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;	
+	text-transform: uppercase;
+}
+
+
+
