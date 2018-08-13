@@ -5,92 +5,72 @@
    -webkit-font-smoothing: antialiased;
 }
 button::-moz-focus-inner {padding:0;border:0;}
-
-a {outline:none;
+ a {outline:none;
    text-decoration:none;
    font-size:11px;
    color:#2d2a2b ;
 }
-
-img {border:none;}
-
-html {
+ img {border:none;}
+ html {
    height: 100%;
 }
-
-
-body {
+ body {
    height: 100%;
-   background-image: url(images/background.png);
+   background-image: url(../images/bg.png);
    background-size: cover;
    background-color: black;
 }
-
-
-.container{
-	max-width: 960px;
+ .container{
+	max-width: 1140px;
 	margin: auto;
 }
-
-header .container{
+ header .container{
 	position: relative;
 }
-
-
-header .container:after{
+ header .container:after{
 	content: "";
 	clear: both;
 	display: block;
 }
-
-header .container img{
+ header .container img{
 	border-top: 4px solid #05abda;
 	padding-top: 32px;
 	padding-bottom: 32px;
 	float: left;
 }
-
-
-header .container ul li{
+ header .container ul li{
 	list-style: none;
 	display: inline-block;
 	float: right;
 }
-
-header .container ul li a{
+ header .container ul li a{
 	font-family: 'Montserrat', sans-serif;	
 	font-size: 15px;
 	color: #ffffff;
 	text-transform: uppercase;
 	line-height: 89px;
 }
-
-header .container ul li:first-child{
+ header .container ul li:first-child{
 	padding-left: 32px;
 	padding-right: 35px;
 }
-
-header .container form{
+ header .container form{
 	max-width: 169px;
 	background-color: #000000;
 	border: 1px solid #4a4a4a;
 	float: right;
 	height: 26px;
 	margin-top: 31px;
-
-}
-
-header .container form:after{
+ }
+ header .container form:after{
 	content: "";
 	clear: both;
 	display: block;
 }
-
-header .container form:hover{
+ header .container form:hover{
 	border: 1px solid #05abda;
 }
-
-header .container form input{
+ header .container form input{
 	width: 70%;
 	background-color: transparent;
 	float: left;
@@ -104,9 +84,7 @@ header .container form input{
 	box-sizing: border-box;
 	outline-style: none;
 }
-
-
-header .container form button{
+ header .container form button{
 	width: 25%;
 	line-height: 26px;
 	float: right;
@@ -115,30 +93,25 @@ header .container form button{
 	border: none;
 	cursor: pointer;
 }
-
-header .container form button i{
+ header .container form button i{
 	color: #ffffff;
 	font-size: 12px;
 }
-
-.cart{
+ .cart{
 	line-height: 89px;
 	float: right;
 	padding-left: 14px;
 }
-
-.messege{
+ .messege{
 	line-height: 89px;
 	float: right;
 	padding-left: 19px;
 }
-
-.cart i, .messege i{
+ .cart i, .messege i{
 	color: #05abda;
 	font-size: 13px;
 }
-
-.contacts{
+ .contacts{
 	background-color: #303030;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -146,16 +119,14 @@ header .container form button i{
 	float: right;
 	margin-right: -462px;
 }
-
-.contacts span:first-child{
+ .contacts span:first-child{
 	color: #8d8d8d;
 	font-size: 10px;
 	line-height: 24px;
 	font-family: 'Montserrat', sans-serif;	
 	text-transform: uppercase;
 }
-
-.contacts span:last-child{
+ .contacts span:last-child{
 	color: #ffffff;
 	font-size: 10px;
 	line-height: 24px;
@@ -163,5 +134,22 @@ header .container form button i{
 	text-transform: uppercase;
 }
 
+.banner1{
+	position: relative;
+}
 
+.banner1 img{
+	width: 100%;
+}
 
+.banner1 a{
+	position: absolute;
+	background-color: #117cae;
+	text-transform: uppercase;
+	padding: 20px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 25px;
+	left: 20px;
+	bottom: 20px;
+}
